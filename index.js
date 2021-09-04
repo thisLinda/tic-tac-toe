@@ -1,5 +1,4 @@
 // todo: refactor button eventListener, code to id/alert win and tie
-
 let currentPlayer = 'X';
 
 // hide alerts
@@ -86,68 +85,69 @@ button9.addEventListener("click", () => {
   document.getElementById("sq9").disabled = true;
 })
 
-if ((button1 == 'x' || button1 == 'X') && (button2 == 'x' ||
-    button2 == 'X') && (button3 == 'x' || button3 == 'X')) {
+if ((button1.textContent === 'x' || button1.textContent === 'X') && 
+  (button2. textContent === 'x' || button2.textContent === 'X') && 
+  (button3.textContent === 'x' || button3.textContent === 'X')) {
+  $("#winner").show();
+  }
+  else if ((button1 === 'x' || button1 === 'X') && (button4 === 'x' ||
+    button4 === 'X') && (button7 === 'x' || button7 === 'X')) {
     $("#winner").show();
   }
-  else if ((button1 == 'x' || button1 == 'X') && (button4 == 'x' ||
-    button4 == 'X') && (button7 == 'x' || button7 == 'X')) {
+  else if ((button7 === 'x' || button7 === 'X') && (button8 === 'x' ||
+    button8 === 'X') && (button9 === 'x' || button9 === 'X')) {
     $("#winner").show();
   }
-  else if ((button7 == 'x' || button7 == 'X') && (button8 == 'x' ||
-    button8 == 'X') && (button9 == 'x' || button9 == 'X')) {
+  else if ((button3 === 'x' || button3 === 'X') && (button6 === 'x' ||
+    button6 === 'X') && (button9 === 'x' || button9 === 'X')) {
     $("#winner").show();
   }
-  else if ((button3 == 'x' || button3 == 'X') && (button6 == 'x' ||
-    button6 == 'X') && (button9 == 'x' || button9 == 'X')) {
+  else if ((button1 === 'x' || button1 === 'X') && (button5 === 'x' ||
+    button5 === 'X') && (button9 === 'x' || button9 === 'X')) {
     $("#winner").show();
   }
-  else if ((button1 == 'x' || button1 == 'X') && (button5 == 'x' ||
-    button5 == 'X') && (button9 == 'x' || button9 == 'X')) {
+  else if ((button3 === 'x' || button3 === 'X') && (button5 === 'x' ||
+    button5 === 'X') && (button7 === 'x' || button7 === 'X')) {
     $("#winner").show();
   }
-  else if ((button3 == 'x' || button3 == 'X') && (button5 == 'x' ||
-    button5 == 'X') && (button7 == 'x' || button7 == 'X')) {
+  else if ((button2 === 'x' || button2 === 'X') && (button5 === 'x' ||
+    button5 === 'X') && (button8 === 'x' || button8 === 'X')) {
     $("#winner").show();
   }
-  else if ((button2 == 'x' || button2 == 'X') && (button5 == 'x' ||
-    button5 == 'X') && (button8 == 'x' || button8 == 'X')) {
+  else if ((button4 === 'x' || button4 === 'X') && (button5 === 'x' ||
+    button5 === 'X') && (button6 === 'x' || button6 === 'X')) {
     $("#winner").show();
   }
-  else if ((button4 == 'x' || button4 == 'X') && (button5 == 'x' ||
-    button5 == 'X') && (button6 == 'x' || button6 == 'X')) {
+  else if ((button1 === 'o' || button1 === 'O') && (button2 === 'o' ||
+    button2 === 'O') && (button3 === 'o' || button3 === 'O')) {
     $("#winner").show();
   }
-  else if ((button1 == 'o' || button1 == 'O') && (button2 == 'o' ||
-    button2 == 'O') && (button3 == 'o' || button3 == 'O')) {
+  else if ((button1 === 'o' || button1 === 'O') && (button4 === 'o' ||
+    button4 === 'O') && (button7 === 'o' || button7 === 'O')) {
     $("#winner").show();
   }
-  else if ((button1 == 'o' || button1 == 'O') && (button4 == 'o' ||
-    button4 == 'O') && (button7 == 'o' || button7 == 'O')) {
+  else if ((button7 === 'o' || button7 === 'O') && (button8 === 'o' ||
+    button8 === 'O') && (button9 === 'o' || button9 === 'O')) {
     $("#winner").show();
   }
-  else if ((button7 == 'o' || button7 == 'O') && (button8 == 'o' ||
-    button8 == 'O') && (button9 == 'o' || button9 == 'O')) {
+  else if ((button3 === 'o' || button3 === 'O') && (button6 === 'o' ||
+    button6 === 'O') && (button9 === 'o' || button9 === 'O')) {
     $("#winner").show();
   }
-  else if ((button3 == 'o' || button3 == 'O') && (button6 == 'o' ||
-    button6 == 'O') && (button9 == 'o' || button9 == 'O')) {
+  else if ((button1 === 'o' || button1 === 'O') && (button5 === 'o' ||
+    button5 === 'O') && (button9 === 'o' || button9 === 'O')) {
     $("#winner").show();
   }
-  else if ((button1 == 'o' || button1 == 'O') && (button5 == 'o' ||
-    button5 == 'O') && (button9 == 'o' || button9 == 'O')) {
+  else if ((button3 === 'o' || button3 === 'O') && (button5 === 'o' ||
+    button5 === 'O') && (button7 === 'o' || button7 === 'O')) {
     $("#winner").show();
   }
-  else if ((button3 == 'o' || button3 == 'O') && (button5 == 'o' ||
-    button5 == 'O') && (button7 == 'o' || button7 == 'O')) {
+  else if ((button2 === 'o' || button2 === 'O') && (button5 === 'o' ||
+    button5 === 'O') && (button8 === 'o' || button8 === 'O')) {
     $("#winner").show();
   }
-  else if ((button2 == 'o' || button2 == 'O') && (button5 == 'o' ||
-    button5 == 'O') && (button8 == 'o' || button8 == 'O')) {
-    $("#winner").show();
-  }
-  else if ((button4 == 'o' || button4 == 'O') && (button5 == 'o' ||
-    button5 == 'O') && (button6 == 'o' || button6 == 'O')) {
+  else if ((button4 === 'o' || button4 === 'O') && (button5 === 'o' ||
+    button5 === 'O') && (button6 === 'o' || button6 === 'O')) {
     $("#winner").show();
   } else {
     $("tie").show();
