@@ -1,0 +1,31 @@
+body{
+    border: solid blue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display:block;
+    height: 100%;
+    margin: 50px; 
+    overflow:hidden;
+    padding: 10%; 
+    width: 80%;
+}
+
+.btn btn-outline-primary{
+    margin-top: 150px;
+}
+
+.headers {
+    padding-bottom: 20px;
+}
+
+.row {
+    padding-bottom: 40px;
+}
+
+#tie {
+    display: none;
+}
+
+#winner {
+    display: none;
+}
